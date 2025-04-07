@@ -86,4 +86,4 @@ def contact_page():
 
 @app.route('/projects')
 def projects_page():
-    return render_template('projects.html', title="Projects", cards=get_projects())
+    return render_template('projects.html', title="Gallery", cards=get_projects())
