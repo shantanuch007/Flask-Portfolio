@@ -2,6 +2,10 @@
 
 {% block headersection %}
 
+<video autoplay muted loop id="vid01">
+  <source src ="{{ url_for('static', filename='images/DSC_1850-1.mp4') }}" type="video/mp4">
+</video>
+
 <section class="header-container">
   <img class="profile-image" src="{{ url_for('static', filename='images/a1c94d58-1705-493b-9ece-1edfa98e0d12.webp') }}" alt="" />
   <h1>Hey Visitor! I'm Shantanu Chatterjee</h1>
